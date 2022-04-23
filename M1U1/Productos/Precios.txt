@@ -1,0 +1,5 @@
+Naranja: $19.90 /kg
+Manzana: $42.90 /kg
+Banana: $199.00 x 1 K.
+Pera: $49.90 /kg
+Uva: $89.00 /kg
