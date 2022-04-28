@@ -1,12 +1,12 @@
 #azul {
-    /*border: 1px solid black;
+    border: 1px solid black;
     margin: 5px auto; 
     padding: 5px;
     box-sizing: border-box;
     width: 30%;
-    text-align: center;*/
-    position: fixed;
-    left: 10px;
+    text-align: center;
+    /*position: fixed;
+    left: 10px;*/
 }
 
 #Rojo {
