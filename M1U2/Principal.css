@@ -1,0 +1,56 @@
+#azul {
+    /*border: 1px solid black;
+    margin: 5px auto; 
+    padding: 5px;
+    box-sizing: border-box;
+    width: 30%;
+    text-align: center;*/
+    position: fixed;
+    left: 10px;
+}
+
+#Rojo {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    position: relative;
+}
+
+header {
+    border: 1px solid black;
+    height: 300px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+nav {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+article {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+aside {
+    border: 1px solid black;       
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+footer {
+    border: 1px solid black;    
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
