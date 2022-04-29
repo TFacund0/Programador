@@ -23,6 +23,7 @@ header {
     padding: 5px;
     margin: 5px;
     box-sizing: border-box;
+    display: inline-block;
 }
 
 nav {
@@ -31,6 +32,9 @@ nav {
     padding: 5px;
     margin: 5px;
     box-sizing: border-box;
+    position: relative;
+    bottom: 90px;
+    left: 10px;
 }
 
 article {
@@ -38,6 +42,11 @@ article {
     margin: 5px;
     padding: 5px;
     box-sizing: border-box;
+}
+
+.Article__3 {
+    width: 300px;
+    display: inline-block;
 }
 
 aside {
