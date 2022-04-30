@@ -3,13 +3,18 @@
     font-family: sans-serif, Verdana, Geneva, Tahoma;
 }
 
+body {
+    background: #2f3542;
+}
+
 #Rojo {
-    border: 1px solid black;
+    border: 5px solid #000000;
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
     height: 100%;
     position: relative;
     border-radius: 10px;
+    background-color: #ffffff;
 }
 
 #azul { 
@@ -17,63 +22,127 @@
     width: 20%;
     text-align: center;
     position: fixed;
-    right: 140px;
+    right: 15%;
     margin-top: 0;
-    background-color: red;
+    background-color: #e00f0b;
     border-radius: 10px;
 }
 
+header h1 {
+    font-size: 30px;
+}
+
+img {
+    border: 3px solid #000000;
+}
 
 header {
-    border: 1px solid black;
+    border: 1px solid #000000;
+    background-color: #d63031;
     height: 300px;
     padding: 5px;
-    margin: 5px;
     height: 300px;
     width: 70%;
     box-sizing: border-box;
     display: inline-block;
+    border-radius: 5px;
     text-align: center;
-    border-radius: 30px;
-    box-shadow: 5px 5px 10px 0 black;
-    text-shadow: 1px 1px 3px black;
+    box-shadow: 5px 5px 10px 0 #000000;
+    text-shadow: 1px 1px 3px #000000;
 }
 
 nav {
-    border: 1px solid black;
+    background-color: #2d3436;
+    border: 1px solid #000000;
     display: inline-block;
     position: relative;
-    bottom: 100px;
-    left: 30px;
-    transform: rotate(10deg);
+    bottom: 5em;
+    left: 1%;
+    transform: rotate(5deg);
+    padding-right: 10px;
 }
 
+nav a {
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: red;
+}
+
+/*nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid #3c67e3;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 25px #5ddcff, 0 0 50px #4e00c2;
+    }
+}*/
+
 article {
-    border: 1px solid black;
-    margin: 5px;
+    border: 3px solid #000000;
+    margin: 10px;
+    margin-top: 5px;
+    margin-left: 2px;
+    box-shadow: 5px 5px 5px 0 #000000;
     padding: 5px;
     box-sizing: border-box;
     text-align: center;
+    background-color: grey;
+}
+
+section article h3 {
+    font-size: 25px;
+    text-shadow: 2px 2px 5px #fff;
+} 
+
+section article img {
+    width: 35%;
 }
 
 .Article__3 {
     width: 80%;
+    margin-top: 0;
     display: inline-block;
     position: relative;
 }
 
 
 aside {
-    border: 1px solid black;       
+    border: 1px solid #000000;       
     display: inline-block;
     position: absolute;
+    padding-left: 5px;
+    width: 14%; 
+    height: 7%;
     bottom: 190px;
-    right: 4%;
+    right: 3%;
+    background-color: grey;
+}
+
+aside a:hover {
+    color: red;
+}
+
+aside a {
+    color: #fff;
 }
 
 footer {
-    border-top: 1px solid black;
+    border-top: 1px solid #000000;
     padding: 5px;
     box-sizing: border-box;
     text-align: center;
+    background-color: #000000;
+    color: #fff;
 }
