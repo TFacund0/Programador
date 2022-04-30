@@ -2,17 +2,6 @@
 
 }
 
-#azul {
-    border: 1px solid black;
-    margin: 5px auto; 
-    padding: 5px;
-    box-sizing: border-box;
-    width: 30%;
-    text-align: center;
-    /*position: fixed;
-    left: 10px;*/
-}
-
 #Rojo {
     border: 1px solid black;
     margin: 0 auto;
@@ -22,13 +11,27 @@
     border-radius: 10px;
 }
 
+#azul {
+    border: 1px solid black;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 13px;
+    width: 20%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-top: 0;
+}
+
+
 header {
     border: 1px solid black;
     height: 300px;
     padding: 5px;
     margin: 5px;
     height: 300px;
-    width: 60%;
+    width: 70%;
     box-sizing: border-box;
     display: inline-block;
     text-align: center;
@@ -40,13 +43,10 @@ header {
 nav {
     border: 1px solid black;
     display: inline-block;
-    padding: 5px;
-    margin: 5px;
-    box-sizing: border-box;
     position: relative;
     bottom: 100px;
-    left: 40px;
-    transform: rotate(15deg);
+    left: 30px;
+    transform: rotate(10deg);
 }
 
 article {
@@ -67,8 +67,6 @@ article {
 aside {
     border: 1px solid black;       
     display: inline-block;
-    margin: 5px;
-    box-sizing: border-box;
     position: absolute;
     bottom: 160px;
     right: 4%;
