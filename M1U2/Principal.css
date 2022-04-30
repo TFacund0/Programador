@@ -19,9 +19,10 @@
     width: 20%;
     text-align: center;
     position: fixed;
-    left: 0;
-    right: 0;
+    right: 140px;
     margin-top: 0;
+    background-color: red;
+    border-radius: 10px;
 }
 
 
