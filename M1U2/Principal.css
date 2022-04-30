@@ -1,3 +1,7 @@
+* {
+
+}
+
 #azul {
     border: 1px solid black;
     margin: 5px auto; 
@@ -50,19 +54,24 @@ article {
     margin: 5px;
     padding: 5px;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .Article__3 {
-    width: 300px;
+    width: 80%;
     display: inline-block;
+    position: relative;
 }
+
 
 aside {
     border: 1px solid black;       
     display: inline-block;
     margin: 5px;
-    padding: 5px;
     box-sizing: border-box;
+    position: absolute;
+    bottom: 160px;
+    right: 4%;
 }
 
 footer {
@@ -70,4 +79,5 @@ footer {
     margin: 5px;
     padding: 5px;
     box-sizing: border-box;
+    text-align: center;
 }
