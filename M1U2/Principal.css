@@ -1,5 +1,6 @@
 * {
-
+    font-size: 18px;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
 }
 
 #Rojo {
@@ -15,11 +16,6 @@
     font-size: 13px;
     width: 20%;
     text-align: center;
-    position: fixed;
-    right: 140px;
-    margin-top: 0;
-    background-color: red;
-    border-radius: 10px;
     position: fixed;
     right: 140px;
     margin-top: 0;
@@ -71,13 +67,12 @@ aside {
     border: 1px solid black;       
     display: inline-block;
     position: absolute;
-    bottom: 160px;
+    bottom: 190px;
     right: 4%;
 }
 
 footer {
-    border: 1px solid black;    
-    margin: 5px;
+    border-top: 1px solid black;
     padding: 5px;
     box-sizing: border-box;
     text-align: center;
