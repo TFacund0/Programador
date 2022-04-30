@@ -11,10 +11,7 @@
     border-radius: 10px;
 }
 
-#azul {
-    border: 1px solid black;
-    margin: 0 auto;
-    box-sizing: border-box;
+#azul { 
     font-size: 13px;
     width: 20%;
     text-align: center;

@@ -1,0 +1,49 @@
+#Bloque {
+    border: 2px solid black;
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid black;
+
+}
+
+nav {
+    border-bottom: 2px solid black;
+} 
+
+article {
+    margin: 5px;
+    border: 1px solid black;
+    position: relative;
+    top: 1px;
+    width: 99%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.info {
+    width: 39%;
+    display: inline-block;
+}
+
+aside {
+    position: absolute;
+    top: 300px;
+    right: 30px;
+    border: 1px solid black;
+    margin: 10px;
+    height: 122px;
+}
+
+footer {
+    border: 1px solid black;
+    margin: 5px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
