@@ -20,6 +20,11 @@
     margin-top: 0;
     background-color: red;
     border-radius: 10px;
+    position: fixed;
+    right: 140px;
+    margin-top: 0;
+    background-color: red;
+    border-radius: 10px;
 }
 
 
