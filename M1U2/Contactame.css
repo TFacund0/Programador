@@ -1,7 +1,6 @@
 * {
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing: border-box;
 }
 
 .id {
@@ -10,7 +9,6 @@
     width: 40%;
     margin: 0 auto;
     padding: 10px;
-    box-sizing: border-box;
     border-radius: 15px;
 }
 
