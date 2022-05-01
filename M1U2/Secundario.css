@@ -1,20 +1,49 @@
+* {
+    font-size: 18px;
+    font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+
+body {
+    background-color: #2f3542;
+}
+
 #Bloque {
-    border: 2px solid black;
+    border: 3px solid black;
     margin: 0 auto;
     width: 70%;
     height: 100%;
     position: relative;
+    background-color: white;
 }
 
 header {
     text-align: center;
-    border-bottom: 2px solid black;
-
+    border-bottom: 3px solid black;
+    background-color: #d63031;
+    display: block;
+    padding-top: 1px;
+    padding-bottom: 11px;
+    height: 50px;
 }
 
+header h1 {
+    font-size: 25px;
+}     
+
 nav {
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
+    background-color: #2d3436;
+    display: block;
+    padding-top: 1px;
 } 
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    color: red;
+}
 
 article {
     margin: 5px;
@@ -24,6 +53,13 @@ article {
     width: 99%;
     padding: 5px;
     box-sizing: border-box;
+    background-color: gray;
+    box-shadow: 5px 5px 3px 0 #1c1d1f;
+}
+
+section article h3 {
+    text-shadow: 2px 2px 3px white;
+    font-size: 19px;
 }
 
 .info {
@@ -33,17 +69,31 @@ article {
 
 aside {
     position: absolute;
-    top: 300px;
-    right: 30px;
-    border: 1px solid black;
+    top: 55.3%;
+    right: 2%;
     margin: 10px;
-    height: 122px;
+    padding: 0 5px;
+    box-sizing: border-box;
+    height: 22.5%;
+    border: 1px solid black;
+    background-color: red;
+}
+
+aside a {
+    color: white;
 }
 
 footer {
-    border: 1px solid black;
-    margin: 5px;
+    color: #fff;
+    background-color: #1c1d1f;
+    border-top: 3px solid black;
+    border-bottom: 1px solid black;
     padding-left: 5px;
+    margin-top: 5px;
     box-sizing: border-box;
     text-align: center;
+}
+
+footer a {
+    color: red;
 }

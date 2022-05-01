@@ -1,0 +1,138 @@
+* {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+.id {
+    background-color: rgb(197, 219, 247);
+    border: 5px solid rgb(13, 16, 187);
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.titulo h1 {
+    text-align: center;
+    font-size: 2em;
+
+}
+
+.titulo h1:hover {
+    text-shadow: 3px 3px 15px blue;
+}
+
+.id__1, .id__2, .id__3, .id__4{
+    border: 1px solid black;
+    margin: 5px;
+    background-color: #fff;
+    box-shadow: -5px 5px 5px #000;
+}
+
+.id__1 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.id__2 {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -8px ;
+}
+
+.subtitulos {
+    padding-left: 5px;
+}
+
+.id__3 {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 8px ;
+}
+
+.id__4 {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -8px ;    
+}
+
+.id__5 {
+    text-align: center;
+}
+
+.id__67 {
+    text-align: center;
+
+}
+
+.id__6 {
+    position: relative;
+    left: -12%;
+    background-color: #fff;
+    color: #000;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.id__6:hover {
+    background-color: #000;
+    color: #fff;
+    border: 3px solid rgb(23, 228, 255);
+}
+
+.id__7 {
+    position: relative;
+    right: -11%;       
+    background-color: #fff;
+    color: #000;
+    box-sizing: border-box;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.id__7:hover {
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+    border: 3px solid rgb(23, 228, 255);
+    border-radius: 10px;
+}
+/*button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: irem;
+    font-weight: 800;
+    width: 200px;
+    cursor: pointer;
+    transform: skew(-21deg);
+    span {
+        display: inline-block;
+        transform: skew(21deg);
+    }
+&:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: #000;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5;
+}
+&:hover {
+    color: #fff;
+    &:before {
+        left: 0;
+        right: 0;
+        opacity: 1;
+    }
+}
+}
