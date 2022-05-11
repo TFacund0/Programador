@@ -7,24 +7,30 @@
     <title>Ejercicio 1</title>
 </head>
 <body>
+
+    <a href="Ejercicio2.html">Ir al Ejercicio 2</a>
+
+    <br>
+
+    <h3>Ejercicio 1</h3>
     <script>
         var distancia 
 
         distancia = prompt("Ingrese los metros que quiere recorrer, y le dare su medio de transporte")
 
-        if (distancia <=1000) {
+        if (distancia > 0 && distancia <= 1000) {
             alert("Vas a Recorrer " + distancia + " metros, te recomiendo hacerlo a Pie")
         }
-        else if(distancia <=10000) {
+        else if(distancia > 1000 && distancia <=10000) {
             alert("Vas a Recorrer " + distancia + " metros, te recomiendo hacerlo en Bicicleta")
         }
-        else if(distancia <=30000) {
+        else if(distancia > 10000 && distancia <= 30000) {
             alert("Vas a Recorrer " + distancia + " metros, te recomiendo hacerlo Colectivo")
         }
-        else if(distancia <=100000) {
+        else if(distancia > 30000 && distancia <= 100000) {
             alert("Vas a Recorrer " + distancia + " metros, te recomiendo hacerlo en Auto")
         }
-        else if(distancia >=100000) {
+        else if(distancia > 100000) {
             alert("Vas a Recorrer " + distancia + " metros, te recomiendo hacerlo en Avión")
         }
 
