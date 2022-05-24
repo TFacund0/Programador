@@ -1,0 +1,28 @@
+#contenedor {
+    border: 3px solid black;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 17%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+.caja1, .caja2, .caja3 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.caja1 {
+    background-color: blue;
+}
+
+
+.caja2 {
+    background-color: aqua;
+}
+
+.caja3 {
+    background-color: red;
+}

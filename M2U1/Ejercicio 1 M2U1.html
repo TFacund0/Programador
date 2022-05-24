@@ -5,8 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise ONE</title>
+    <link rel="stylesheet" href="Ejercicio 1.css">
 </head>
 <body>
-    
-</body>
+    <div id="contenedor">
+        <article class="caja1" onclick="colores('blue')">caja1</article>
+        <article class="caja2" onclick="colores('aqua')">caja2</article>
+        <article class="caja3" onclick="colores('red')">caja3</article>
+    </div>
+    <script>
+        function colores(color) {
+            document.querySelector('body').style.background = color;
+        }
+    </script>
+    </body>
 </html>
