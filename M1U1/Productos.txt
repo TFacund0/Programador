@@ -5,3 +5,4 @@ Pera: Comprado
 Uva: Comprado
 Mandarina: Comprado
 Helado: Comprado
+Coco: Comprado
